@@ -1,0 +1,57 @@
+Node.js To-Do List Application Assignment
+Setup and Configuration:
+1. Initialize a new Node.js project:
+● Create a new directory for your project.
+● Open the terminal and navigate to this directory.
+● Run npm init to initialize a new Node.js project.
+2. Configure MongoDB for storing task data:
+● Install the MongoDB Node.js driver using npm install mongodb.
+● Set up MongoDB Atlas or install MongoDB locally.
+● Connect your Node.js application to MongoDB using the MongoDB
+connection string.
+3. Setup Redis for caching and session management:
+● Install the Redis client for Node.js using npm install redis.
+● Set up a Redis server locally or use a cloud-based Redis service like
+Redis Labs.
+● Configure Redis connection in your Node.js application.
+Task Management:
+1. Create RESTful API endpoints for managing tasks:
+● Use Express.js to create routes for task management operations (GET,
+POST, PUT, DELETE).
+2. Implement functionality for CRUD operations:
+● Create endpoints to add new tasks, update existing tasks, delete tasks,
+and list tasks with pagination.
+● Handle these operations by interacting with MongoDB to store and
+retrieve task data.
+User Authentication:
+1. Implement basic user authentication using JWT:
+● Install JSON web token package using npm install JSON web token.
+● Create JWT tokens upon successful user login.
+● Verify JWT tokens for protected routes.
+2. Allow users to register, log in, and log out:
+● Create routes for user registration, login, and logout.
+● Hash and store passwords securely using libraries like bcrypt.
+3. Ensure authenticated access to task management:
+● Only allow authenticated users to perform CRUD operations on tasks.
+User Authorization:
+1. Implement Role-Based Access Control (RBAC):
+● Define roles (e.g., admin, regular user) and their permissions.
+● Create middleware functions to check user roles before accessing
+certain routes.
+2. Define roles and permissions for task management:
+● Specify which roles can perform specific actions on tasks (e.g., adding,
+completing, deleting).
+● Restrict access to task management endpoints based on user roles.
+Deadline:
+Complete the assignment within the next 2 days.
+Submission:
+Share the Google Docs/git repository link containing your assignment once
+completed.
+Additional Notes:
+● Test your application thoroughly using tools like Postman.
+● Use proper error handling to handle edge cases and improve the
+robustness of your application.
+● Document your code and provide clear instructions for running the
+application locally.
+● Consider deploying your application to a platform like Heroku for
+demonstration purposes.
